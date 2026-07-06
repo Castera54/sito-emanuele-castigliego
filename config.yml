@@ -1,0 +1,134 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "images/blog"
+public_folder: "/images/blog"
+
+publish_mode: simple
+locale: "it"
+
+collections:
+  - name: "blog"
+    label: "Blog"
+    files:
+      - file: "data/posts.json"
+        label: "Articoli del blog"
+        name: "posts"
+        fields:
+          - label: "Articoli"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.titolo}} — {{fields.data}}"
+            fields:
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Slug (usato nell'indirizzo web, es. il-mio-articolo)", name: "slug", widget: "string" }
+              - { label: "Data", name: "data", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - { label: "Estratto (anteprima breve)", name: "estratto", widget: "text" }
+              - { label: "Immagine di copertina", name: "immagine", widget: "image", required: false, media_folder: "/images/blog", public_folder: "/images/blog" }
+              - { label: "Testo dell'articolo", name: "corpo", widget: "text" }
+
+  - name: "social"
+    label: "Post in evidenza (sezione Social)"
+    files:
+      - file: "data/social.json"
+        label: "Post in evidenza"
+        name: "social_posts"
+        fields:
+          - label: "Post"
+            name: "posts"
+            widget: "list"
+            summary: "{{fields.piattaforma}} — {{fields.data}}"
+            fields:
+              - { label: "Piattaforma", name: "piattaforma", widget: "select", options: ["instagram", "facebook", "twitter"] }
+              - { label: "Data", name: "data", widget: "datetime", format: "YYYY-MM-DD", date_format: "YYYY-MM-DD", time_format: false }
+              - { label: "Testo del post", name: "testo", widget: "text" }
+              - { label: "Link al post originale", name: "link", widget: "string" }
+
+  - name: "battaglie"
+    label: "Battaglie politiche"
+    files:
+      - file: "data/battaglie.json"
+        label: "Battaglie"
+        name: "battaglie_list"
+        fields:
+          - label: "Battaglie"
+            name: "battaglie"
+            widget: "list"
+            summary: "{{fields.titolo}}"
+            fields:
+              - { label: "Titolo", name: "titolo", widget: "string" }
+              - { label: "Categoria", name: "categoria", widget: "string" }
+              - { label: "Immagine", name: "immagine", widget: "image", media_folder: "/images/battaglie", public_folder: "/images/battaglie" }
+              - { label: "Sintesi breve", name: "sintesi", widget: "text" }
+              - { label: "Dettaglio completo", name: "dettaglio", widget: "text" }
+              - label: "Fonti"
+                name: "fonti"
+                widget: "list"
+                fields:
+                  - { label: "Titolo fonte", name: "titolo", widget: "string" }
+                  - { label: "Link", name: "url", widget: "string" }
+
+  - name: "incarichi"
+    label: "Incarichi ricoperti"
+    files:
+      - file: "data/incarichi.json"
+        label: "Incarichi"
+        name: "incarichi_list"
+        fields:
+          - label: "Incarichi"
+            name: "incarichi"
+            widget: "list"
+            summary: "{{fields.ruolo}}"
+            fields:
+              - { label: "Ruolo", name: "ruolo", widget: "string" }
+              - { label: "Periodo", name: "periodo", widget: "string" }
+              - { label: "Stato", name: "stato", widget: "select", options: ["attuale", "concluso"] }
+              - { label: "Descrizione", name: "descrizione", widget: "text" }
+
+  - name: "storia"
+    label: "Chi sono / La mia storia"
+    files:
+      - file: "data/storia.json"
+        label: "Testo e foto della sezione storia"
+        name: "storia_content"
+        fields:
+          - label: "Testo (in ordine di comparsa)"
+            name: "blocchi"
+            widget: "list"
+            summary: "{{fields.tipo}} — {{fields.testo}}"
+            fields:
+              - { label: "Tipo", name: "tipo", widget: "select", options: [{ label: "Paragrafo normale", value: "paragrafo" }, { label: "Citazione in evidenza", value: "citazione" }] }
+              - { label: "Testo (puoi usare **grassetto**)", name: "testo", widget: "text" }
+          - label: "Foto a fianco del testo"
+            name: "foto"
+            widget: "list"
+            summary: "{{fields.alt}}"
+            fields:
+              - { label: "Immagine", name: "immagine", widget: "image", media_folder: "/images/generic", public_folder: "/images/generic" }
+              - { label: "Descrizione immagine (per l'accessibilità)", name: "alt", widget: "string" }
+              - { label: "Posizione del volto nella foto (avanzato)", name: "posizione", widget: "string", required: false, hint: "Di solito puoi lasciare vuoto (centra automaticamente). Se il viso viene tagliato, prova un valore tipo \"50% 20%\" (orizzontale% verticale%, 20% = più in alto)." }
+
+  - name: "impostazioni"
+    label: "Impostazioni sito"
+    files:
+      - file: "data/site.json"
+        label: "Dati generali e social"
+        name: "site_settings"
+        fields:
+          - { label: "Titolo sito (e nome nell'intestazione)", name: "titolo", widget: "string" }
+          - { label: "Sottotitolo", name: "sottotitolo", widget: "string" }
+          - { label: "Descrizione", name: "descrizione", widget: "text" }
+          - { label: "URL sito", name: "url", widget: "string" }
+          - { label: "Email di contatto", name: "email", widget: "string", required: false }
+          - { label: "Link Instagram", name: "instagram", widget: "string", required: false }
+          - { label: "Handle Instagram (es. @nome)", name: "instagramHandle", widget: "string", required: false }
+          - { label: "Link Facebook", name: "facebook", widget: "string", required: false }
+          - { label: "Link X / Twitter", name: "twitter", widget: "string", required: false }
+          - { label: "Anno corrente (per il copyright)", name: "annoCorrente", widget: "number" }
+          - { label: "Frase piccola sopra il titolo (hero)", name: "heroEyebrow", widget: "string" }
+          - { label: "Testo introduttivo sotto il titolo (hero)", name: "heroTesto", widget: "text" }
+          - { label: "Foto profilo (tondo, in alto a sinistra)", name: "fotoProfilo", widget: "image", media_folder: "/images/hero", public_folder: "/images/hero" }
+          - { label: "Posizione volto - foto profilo (avanzato)", name: "fotoProfiloPosizione", widget: "string", required: false, hint: "Lascia vuoto per il centro automatico, es. \"50% 20%\" se il viso viene tagliato." }
+          - { label: "Foto grande in home page", name: "fotoHero", widget: "image", media_folder: "/images/generic", public_folder: "/images/generic" }
+          - { label: "Posizione volto - foto grande (avanzato)", name: "fotoHeroPosizione", widget: "string", required: false, hint: "Lascia vuoto per il centro automatico, es. \"75% 25%\" se il viso viene tagliato." }

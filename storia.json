@@ -1,0 +1,14 @@
+{
+  "blocchi": [
+    { "tipo": "paragrafo", "testo": "Sono nato il 6 agosto 2005 a Manfredonia, in Puglia, e mi sono trasferito a Pescara già dalle scuole superiori: è la città che ho scelto come casa, e per cui ho deciso di impegnarmi in prima persona. Oggi studio Economia a Roma, ma il mio impegno politico resta saldamente qui, in Abruzzo." },
+    { "tipo": "paragrafo", "testo": "Il mio percorso politico nasce dentro i Giovani Democratici: prima come Vicesegretario Provinciale dei GD della provincia di Pescara dal 2023, poi, il 22 giugno 2025, sono stato eletto per acclamazione Segretario metropolitano del nuovo circolo **\"Nuova Pescara\"**, nato dall'unione ideale di Pescara, Montesilvano e Spoltore in vista della futura area metropolitana." },
+    { "tipo": "paragrafo", "testo": "Oggi sono anche Responsabile Organizzazione dei Giovani Democratici Abruzzo e curo la delega regionale a Lavoro, Economia e Politiche Industriali: due ruoli che mi permettono di portare le battaglie del territorio pescarese dentro il dibattito politico regionale, e viceversa." },
+    { "tipo": "citazione", "testo": "Questo è il tempo della responsabilità e della costruzione. I Giovani Democratici non vogliono essere spettatori ma protagonisti del cambiamento." },
+    { "tipo": "paragrafo", "testo": "Credo in una città policentrica, dove Montesilvano e Spoltore non siano periferie ma nodi vitali di una rete urbana: una città che sia guida per l'Adriatico e modello per tutto il Sud. Il nostro compito, come Giovani Democratici, è trasformare la delusione in progetto, la rabbia in proposta, il sogno in città." },
+    { "tipo": "citazione", "testo": "Dobbiamo prenderci cura degli ultimi, senza farli sentire ultimi." }
+  ],
+  "foto": [
+    { "immagine": "/images/generic/reggio-emilia-evento.jpg", "posizione": "51.8% 29.9%", "alt": "Emanuele Castigliego a un evento nazionale dei Giovani Democratici" },
+    { "immagine": "/images/incarichi/evento-pd.jpg", "posizione": "46.8% 21.5%", "alt": "Emanuele Castigliego interviene a un evento del Partito Democratico" }
+  ]
+}

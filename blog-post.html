@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="page-title">Articolo — Emanuele Castigliego</title>
+<meta name="description" id="page-description" content="Blog di Emanuele Castigliego">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a href="/" class="brand">
+      <img id="brand-photo" src="/images/hero/badge-headshot.jpg" alt="Emanuele Castigliego" class="brand-photo" style="object-position: 50.2% 19.8%;">
+      <span class="brand-text">
+        <strong>Emanuele Castigliego</strong>
+        <small id="brand-subtitle">Segretario Giovani Democratici Nuova Pescara</small>
+      </span>
+    </a>
+    <button class="nav-toggle" aria-label="Apri il menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav">
+      <a href="/#storia">Chi sono</a>
+      <a href="/#battaglie">Battaglie</a>
+      <a href="/#incarichi">Incarichi</a>
+      <a href="/#social">Social</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/#contatti" class="nav-cta">Contatti</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<article class="section post">
+  <div class="container post-container" id="post-container">
+    <a href="/blog.html" class="back-link">← Torna al blog</a>
+    <p>Caricamento in corso…</p>
+  </div>
+</article>
+</main>
+
+<footer class="site-footer" id="contatti">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <strong>Emanuele Castigliego</strong>
+      <p>Segretario Giovani Democratici Nuova Pescara<br>Responsabile Organizzazione Giovani Democratici Abruzzo</p>
+    </div>
+    <div class="footer-links">
+      <h4>Esplora</h4>
+      <a href="/#storia">Chi sono</a>
+      <a href="/#battaglie">Battaglie politiche</a>
+      <a href="/#incarichi">Incarichi</a>
+      <a href="/blog.html">Blog</a>
+    </div>
+    <div class="footer-social">
+      <h4>Seguimi</h4>
+      <div class="social-icons" id="footer-social-icons"></div>
+      <a class="footer-email" id="footer-email" href="#" style="display:none;"></a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="footer-year">2026</span> Emanuele Castigliego. Tutti i diritti riservati.</p>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+<script src="/js/animations.js"></script>
+<script src="/js/site-data.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", async () => {
+  const container = document.getElementById("post-container");
+  const params = new URLSearchParams(window.location.search);
+  const slug = params.get("slug");
+  try {
+    const posts = await caricaJSON("/data/posts.json");
+    const post = posts.find((p) => p.slug === slug);
+    if (!post) {
+      container.innerHTML = `
+        <a href="/blog.html" class="back-link">← Torna al blog</a>
+        <h1>Articolo non trovato</h1>
+        <p>L'articolo che cerchi non esiste o è stato rimosso.</p>
+        <a href="/blog.html" class="btn btn-outline">← Tutti gli articoli</a>
+      `;
+      return;
+    }
+    document.getElementById("page-title").textContent = post.titolo + " — Emanuele Castigliego";
+    document.getElementById("page-description").setAttribute("content", post.estratto || "");
+    container.innerHTML = `
+      <a href="/blog.html" class="back-link">← Torna al blog</a>
+      <span class="blog-date">${formattaDataItaliana(post.data)}</span>
+      <h1>${post.titolo}</h1>
+      ${post.immagine ? `<img class="post-cover" src="${post.immagine}" alt="${post.titolo}" style="object-position: ${post.focus || 'center'};">` : ""}
+      <div class="post-content">${markdownSemplice(post.corpo)}</div>
+      <a href="/blog.html" class="btn btn-outline">← Tutti gli articoli</a>
+    `;
+  } catch (e) {
+    container.innerHTML = "<p>Non è stato possibile caricare l'articolo.</p>";
+    console.error(e);
+  }
+});
+</script>
+</body>
+</html>

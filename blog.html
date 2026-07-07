@@ -84,7 +84,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
   const contenitore = document.getElementById("blog-list");
   try {
-    const posts = await caricaJSON("/data/posts.json");
+    const datiPosts = await caricaJSON("/data/posts.json");
+    const posts = datiPosts.posts || [];
     const ordinati = [...posts].sort((a, b) => new Date(b.data) - new Date(a.data));
     if (ordinati.length === 0) {
       contenitore.innerHTML = "<p>Nessun articolo pubblicato ancora. Torna presto!</p>";

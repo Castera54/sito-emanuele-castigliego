@@ -1,26 +1,28 @@
-[
-  {
-    "ruolo": "Responsabile Organizzazione dei Giovani Democratici Abruzzo",
-    "periodo": "In carica",
-    "stato": "attuale",
-    "descrizione": "Coordina la macchina organizzativa regionale dei Giovani Democratici, occupandosi della struttura dei circoli abruzzesi, del tesseramento e del raccordo tra i territori e la segreteria regionale."
-  },
-  {
-    "ruolo": "Delega a Lavoro, Economia e Politiche Industriali (GD Abruzzo)",
-    "periodo": "In carica",
-    "stato": "attuale",
-    "descrizione": "Segue i dossier su precariato giovanile, salario minimo, fisco per gli under 35 e crisi industriale, portando le proposte dei Giovani Democratici al confronto con parti sociali e istituzioni regionali."
-  },
-  {
-    "ruolo": "Segretario Metropolitano Giovani Democratici \"Nuova Pescara\"",
-    "periodo": "Dal 22 giugno 2025",
-    "stato": "attuale",
-    "descrizione": "Eletto per acclamazione al congresso di Pescara, guida il circolo che unisce Pescara, Montesilvano e Spoltore in vista della futura area metropolitana, succedendo ad Alessandro Capodicasa."
-  },
-  {
-    "ruolo": "Vicesegretario Provinciale Giovani Democratici di Pescara",
-    "periodo": "2023 – 2026",
-    "stato": "concluso",
-    "descrizione": "Ha affiancato la segreteria provinciale nella costruzione dell'organizzazione giovanile dem sul territorio pescarese, occupandosi di mobilitazione, iniziative pubbliche e battaglie territoriali."
-  }
-]
+{
+  "incarichi": [
+    {
+      "ruolo": "Responsabile Organizzazione dei Giovani Democratici Abruzzo",
+      "periodo": "In carica",
+      "stato": "attuale",
+      "descrizione": "Coordina la macchina organizzativa regionale dei Giovani Democratici, occupandosi della struttura dei circoli abruzzesi, del tesseramento e del raccordo tra i territori e la segreteria regionale."
+    },
+    {
+      "ruolo": "Delega a Lavoro, Economia e Politiche Industriali (GD Abruzzo)",
+      "periodo": "In carica",
+      "stato": "attuale",
+      "descrizione": "Segue i dossier su precariato giovanile, salario minimo, fisco per gli under 35 e crisi industriale, portando le proposte dei Giovani Democratici al confronto con parti sociali e istituzioni regionali."
+    },
+    {
+      "ruolo": "Segretario Metropolitano Giovani Democratici \"Nuova Pescara\"",
+      "periodo": "Dal 22 giugno 2025",
+      "stato": "attuale",
+      "descrizione": "Eletto per acclamazione al congresso di Pescara, guida il circolo che unisce Pescara, Montesilvano e Spoltore in vista della futura area metropolitana, succedendo ad Alessandro Capodicasa."
+    },
+    {
+      "ruolo": "Vicesegretario Provinciale Giovani Democratici di Pescara",
+      "periodo": "2023 – 2026",
+      "stato": "concluso",
+      "descrizione": "Ha affiancato la segreteria provinciale nella costruzione dell'organizzazione giovanile dem sul territorio pescarese, occupandosi di mobilitazione, iniziative pubbliche e battaglie territoriali."
+    }
+  ]
+}

@@ -1,20 +1,22 @@
-[
-  {
-    "piattaforma": "instagram",
-    "data": "2026-04-13",
-    "testo": "Avevamo ragione noi: il TAR sospende l'ordinanza \"Cenerentola\". Una città viva è una città più sicura. Continuiamo a batterci per Pescara.",
-    "link": "https://www.instagram.com/emanuelecastigliego/"
-  },
-  {
-    "piattaforma": "instagram",
-    "data": "2026-05-12",
-    "testo": "Il lavoro è prima di tutto una questione generazionale. Insieme alle parti sociali under 35, portiamo avanti le nostre proposte per salari dignitosi e un futuro in Abruzzo.",
-    "link": "https://www.instagram.com/emanuelecastigliego/"
-  },
-  {
-    "piattaforma": "facebook",
-    "data": "2026-02-24",
-    "testo": "Le carceri abruzzesi non possono restare sovraffollate. Servono interventi immediati: assunzioni, investimenti, salute mentale. Non luoghi della non vita.",
-    "link": "https://www.facebook.com/emanuele.castigliego.3/"
-  }
-]
+{
+  "posts": [
+    {
+      "piattaforma": "instagram",
+      "data": "2026-04-13",
+      "testo": "Avevamo ragione noi: il TAR sospende l'ordinanza \"Cenerentola\". Una città viva è una città più sicura. Continuiamo a batterci per Pescara.",
+      "link": "https://www.instagram.com/emanuelecastigliego/"
+    },
+    {
+      "piattaforma": "instagram",
+      "data": "2026-05-12",
+      "testo": "Il lavoro è prima di tutto una questione generazionale. Insieme alle parti sociali under 35, portiamo avanti le nostre proposte per salari dignitosi e un futuro in Abruzzo.",
+      "link": "https://www.instagram.com/emanuelecastigliego/"
+    },
+    {
+      "piattaforma": "facebook",
+      "data": "2026-02-24",
+      "testo": "Le carceri abruzzesi non possono restare sovraffollate. Servono interventi immediati: assunzioni, investimenti, salute mentale. Non luoghi della non vita.",
+      "link": "https://www.facebook.com/emanuele.castigliego.3/"
+    }
+  ]
+}

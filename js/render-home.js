@@ -56,7 +56,8 @@ async function renderBattaglie() {
   const contenitore = document.getElementById("battaglie-grid");
   if (!contenitore) return;
   try {
-    const battaglie = await caricaJSON("/data/battaglie.json");
+    const datiBattaglie = await caricaJSON("/data/battaglie.json");
+    const battaglie = datiBattaglie.battaglie || [];
     contenitore.innerHTML = battaglie.map((b) => `
       <article class="battaglia-card">
         <div class="battaglia-img">
@@ -86,7 +87,8 @@ async function renderIncarichi() {
   const contenitore = document.getElementById("incarichi-timeline");
   if (!contenitore) return;
   try {
-    const incarichi = await caricaJSON("/data/incarichi.json");
+    const datiIncarichi = await caricaJSON("/data/incarichi.json");
+    const incarichi = datiIncarichi.incarichi || [];
     contenitore.innerHTML = incarichi.map((i) => `
       <div class="timeline-item ${i.stato === 'attuale' ? 'timeline-attuale' : 'timeline-concluso'}">
         <div class="timeline-dot"></div>
@@ -116,7 +118,8 @@ async function renderSocial() {
       seguimi.innerHTML = html;
     }
     if (griglia) {
-      const social = await caricaJSON("/data/social.json");
+      const datiSocial = await caricaJSON("/data/social.json");
+      const social = datiSocial.posts || [];
       griglia.innerHTML = social.map((s) => `
         <a class="social-card" href="${s.link}" target="_blank" rel="noopener">
           <span class="social-platform social-${s.piattaforma}">${s.piattaforma}</span>
@@ -135,7 +138,8 @@ async function renderBlogPreview() {
   const contenitore = document.getElementById("blog-preview-grid");
   if (!contenitore) return;
   try {
-    const posts = await caricaJSON("/data/posts.json");
+    const datiPosts = await caricaJSON("/data/posts.json");
+    const posts = datiPosts.posts || [];
     const ordinati = [...posts].sort((a, b) => new Date(b.data) - new Date(a.data)).slice(0, 3);
     if (ordinati.length === 0) {
       contenitore.innerHTML = "<p>Presto nuovi articoli dal blog.</p>";

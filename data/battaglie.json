@@ -1,102 +1,104 @@
-[
-  {
-    "titolo": "Tornare a casa per Natale non può essere un lusso",
-    "categoria": "Trasporti e diritti dei pendolari",
-    "immagine": "/images/battaglie/protesta-trasporti-natale.jpg",
-    "sintesi": "Con un presidio pubblico, Emanuele ha denunciato il caro-trasporti che ogni anno colpisce chi da fuori regione prova a tornare in Abruzzo per le feste: biglietti aumentati a dismisura, pendolari e studenti fuori sede trattati come clienti di serie B.",
-    "dettaglio": "La campagna \"Tornare a casa per Natale è diventato impossibile\" ha acceso i riflettori sui rincari dei collegamenti verso l'Abruzzo nel periodo natalizio, portando il tema all'attenzione della stampa regionale insieme alla denuncia più ampia dei Giovani Democratici su pendolarismo e diritto alla mobilità degli studenti fuori sede.",
-    "fonti": [
-      {
-        "titolo": "Caro viaggi natalizi: GD, \"batosta ritorni in Abruzzo, pendolari e studenti tartassati\"",
-        "url": "https://abruzzoweb.it/caro-viaggi-natalizi-gd-batosta-ritorni-in-abruzzo-pendolari-e-studenti-tartassati"
-      }
-    ],
-    "focus": "49.2% 19.1%"
-  },
-  {
-    "titolo": "Una città viva è una città più sicura",
-    "categoria": "Vivibilità urbana e vita notturna",
-    "immagine": "/images/generic/intervento-microfono.jpg",
-    "sintesi": "Contro l'ordinanza \"Cenerentola\" del Comune di Pescara, che limitava gli orari della movida penalizzando i locali, Emanuele ha guidato la battaglia dei Giovani Democratici fino alla sospensione del provvedimento da parte del TAR.",
-    "dettaglio": "\"Avevamo ragione noi\", ha dichiarato Castigliego dopo la sospensione dell'ordinanza da parte del Tribunale Amministrativo Regionale, criticando la scelta dell'amministrazione Masci di imboccare \"la strada più semplice e più sbagliata: la criminalizzazione del divertimento\". La sua proposta: un tavolo tra gestori, residenti e istituzioni per bilanciare il diritto al riposo con quello alla vita sociale della città, invece di misure unilaterali contro i lavoratori della notte.",
-    "fonti": [
-      {
-        "titolo": "Castigliego (Pd) sull'ordinanza Cenerentola sospesa: \"Avevamo ragione noi, la città non può restare spenta\"",
-        "url": "https://www.ilpescara.it/politica/castigliego-giovani-pd-ordinanza-cenerentola-sospesa-tar.html"
-      },
-      {
-        "titolo": "I giovani Democratici bacchettano il sindaco di Pescara Masci sulla ordinanza \"cenerentola\" sospesa dal Tar",
-        "url": "https://www.abruzzopopolare.com/2026/04/13/i-giovani-democratici-bacchettano-il-sindaco-di-pescara-masci-sulla-ordinanza-cenerentola-sospesa-dal-tar/"
-      }
-    ],
-    "focus": "59.7% 38%"
-  },
-  {
-    "titolo": "Un'opera pubblica incompleta e pericolosa non si consegna ai cittadini",
-    "categoria": "Sicurezza e mobilità pubblica",
-    "immagine": "/images/generic/congresso-spiaggia.jpg",
-    "sintesi": "Dopo tre incidenti in due giorni sul nuovo tracciato del filobus TUA a Pescara, Emanuele ha denunciato marciapiedi fuori norma, barriere architettoniche mai rimosse e incroci a raso con semafori malfunzionanti.",
-    "dettaglio": "\"Un'opera pubblica incompleta, mal progettata e pericolosa è stata restituita ai cittadini\", ha dichiarato, definendo \"inaccettabile questa ostinazione irresponsabile, prima che si verifichino conseguenze più gravi\". La necessità di presidiare gli incroci con la polizia locale, secondo Castigliego, certificava da sola l'insicurezza strutturale di un'opera inaugurata in fretta e senza collaudo.",
-    "fonti": [
-      {
-        "titolo": "Giovani Democratici Pescara: \"Il tracciato TUA va rivisto, tre incidenti in due giorni segnalano un problema\"",
-        "url": "https://www.iltrafiletto.it/2025/04/30/giovani-democratici-pescara-il-tracciato-tua-va-rivisto-tre-incidenti-in-due-giorni-segnalano-un-problema/9-11764.html"
-      }
-    ],
-    "focus": "74.8% 24.6%"
-  },
-  {
-    "titolo": "Basta parcheggi al posto del tram che non arriva mai",
-    "categoria": "Qualità della vita e mobilità sostenibile",
-    "immagine": "/images/incarichi/incontro-circolo.jpg",
-    "sintesi": "Insieme alla segreteria provinciale, Emanuele ha criticato la scelta della giunta Masci di trasformare Strada Parco in parcheggio nel periodo natalizio, mentre Pescara scivolava di 14 posizioni nella classifica sulla qualità della vita del Sole 24 Ore.",
-    "dettaglio": "\"Una scelta insensata e ipocrita\" che, secondo Castigliego, certifica il fallimento del progetto del tram, promesso entro l'anno e mai partito per problemi irrisolti. La richiesta dei Giovani Democratici: soluzioni strutturali e di lungo periodo, non misure emergenziali, guardando alle città europee che investono su pedonalizzazione e mobilità sostenibile.",
-    "fonti": [
-      {
-        "titolo": "Pescara, GD: \"Parcheggio su Strada Parco scelta emergenziale, servono soluzioni strutturali\"",
-        "url": "https://abruzzoweb.it/pescara-gd-parcheggio-su-strada-parco-scelta-emergenziale-servono-soluzioni-strutturali/"
-      },
-      {
-        "titolo": "I giovani democratici sui parcheggi lungo la strada parco: \"Scelta fallimentare ed emergenziale\"",
-        "url": "https://www.ilpescara.it/politica/parcheggi-strada-parco-giovani-democratici.html"
-      }
-    ],
-    "focus": "51.7% 25%"
-  },
-  {
-    "titolo": "Il lavoro è una questione generazionale",
-    "categoria": "Lavoro, economia e politiche industriali",
-    "immagine": "/images/generic/reggio-emilia-evento.jpg",
-    "sintesi": "Come responsabile lavoro, economia e politiche industriali dei GD Abruzzo, Emanuele ha portato ai tavoli con parti sociali e sindacati under 35 la battaglia su precarietà, salari bassi e crisi industriale, rifiutando le celebrazioni di facciata.",
-    "dettaglio": "\"Il lavoro non può essere affrontato soltanto in chiave celebrativa\", ha dichiarato, sottolineando che \"la questione del lavoro è prima di tutto una questione generazionale: precarietà, salari bassi, inflazione, fuga dei giovani e crisi industriale stanno compromettendo il futuro di intere generazioni\". Sul tavolo le proposte dei GD: salario minimo regionale, sgravi fiscali per gli under 35, riforma degli stage contro gli abusi e una nuova politica industriale regionale, di fronte a una disoccupazione giovanile oltre il 18% e una cassa integrazione straordinaria cresciuta di oltre il 250%.",
-    "fonti": [
-      {
-        "titolo": "Lavoro, l'allarme dei Giovani Democratici: precarietà, salari bassi e crisi industriale",
-        "url": "https://www.abruzzospeciale.it/2026/05/12/lavoro-lallarme-dei-giovani-democratici-precarieta-salari-bassi-e-crisi-industriale-la-questione-generazionale-e-lemergenza-del-paese/"
-      },
-      {
-        "titolo": "I Giovani Democratici incontrano le parti sociali under 35",
-        "url": "https://www.ilpescara.it/attualita/giovani-democratici-incontrano-parti-sociali-under-35.html"
-      }
-    ],
-    "focus": "51.8% 29.9%"
-  },
-  {
-    "titolo": "Carceri sovraffollate: non luoghi della non vita",
-    "categoria": "Diritti e giustizia sociale",
-    "immagine": "/images/incarichi/evento-pd.jpg",
-    "sintesi": "Come responsabile organizzazione dei GD Abruzzo, Emanuele ha firmato insieme ad altri dirigenti regionali la denuncia sul sovraffollamento delle carceri abruzzesi, arrivate a quasi 2000 detenuti, e sulla carenza di organico e assistenza sanitaria.",
-    "dettaglio": "Il comunicato firmato dai Giovani Democratici Abruzzo denuncia \"istituti sovraffollati, aumento costante dei detenuti, organici insufficienti\", con la popolazione carceraria abruzzese salita a 1.981 unità. La richiesta è di interventi strutturali immediati: nuove assunzioni, investimenti sugli istituti e potenziamento dei servizi di salute mentale, invece di risposte emergenziali di fronte a una situazione ormai cronica.",
-    "fonti": [
-      {
-        "titolo": "GD su carceri: \"Abruzzo situazione critica, servono urgenti interventi\"",
-        "url": "https://news-town.it/2026/02/24/redazione-aperta/gd-su-carceri-abruzzo-situazione-critica-servono-urgenti-interventi/"
-      },
-      {
-        "titolo": "Sempre più sovraffollate le carceri abruzzesi, i Giovani democratici: \"Non luoghi della non vita\"",
-        "url": "https://www.ilpescara.it/politica/carceri-numero-detenuti-sovraffollamento-giovani-democratici.html"
-      }
-    ],
-    "focus": "46.8% 21.5%"
-  }
-]
+{
+  "battaglie": [
+    {
+      "titolo": "Tornare a casa per Natale non può essere un lusso",
+      "categoria": "Trasporti e diritti dei pendolari",
+      "immagine": "/images/battaglie/protesta-trasporti-natale.jpg",
+      "sintesi": "Con un presidio pubblico, Emanuele ha denunciato il caro-trasporti che ogni anno colpisce chi da fuori regione prova a tornare in Abruzzo per le feste: biglietti aumentati a dismisura, pendolari e studenti fuori sede trattati come clienti di serie B.",
+      "dettaglio": "La campagna \"Tornare a casa per Natale è diventato impossibile\" ha acceso i riflettori sui rincari dei collegamenti verso l'Abruzzo nel periodo natalizio, portando il tema all'attenzione della stampa regionale insieme alla denuncia più ampia dei Giovani Democratici su pendolarismo e diritto alla mobilità degli studenti fuori sede.",
+      "fonti": [
+        {
+          "titolo": "Caro viaggi natalizi: GD, \"batosta ritorni in Abruzzo, pendolari e studenti tartassati\"",
+          "url": "https://abruzzoweb.it/caro-viaggi-natalizi-gd-batosta-ritorni-in-abruzzo-pendolari-e-studenti-tartassati"
+        }
+      ],
+      "focus": "49.2% 19.1%"
+    },
+    {
+      "titolo": "Una città viva è una città più sicura",
+      "categoria": "Vivibilità urbana e vita notturna",
+      "immagine": "/images/generic/intervento-microfono.jpg",
+      "sintesi": "Contro l'ordinanza \"Cenerentola\" del Comune di Pescara, che limitava gli orari della movida penalizzando i locali, Emanuele ha guidato la battaglia dei Giovani Democratici fino alla sospensione del provvedimento da parte del TAR.",
+      "dettaglio": "\"Avevamo ragione noi\", ha dichiarato Castigliego dopo la sospensione dell'ordinanza da parte del Tribunale Amministrativo Regionale, criticando la scelta dell'amministrazione Masci di imboccare \"la strada più semplice e più sbagliata: la criminalizzazione del divertimento\". La sua proposta: un tavolo tra gestori, residenti e istituzioni per bilanciare il diritto al riposo con quello alla vita sociale della città, invece di misure unilaterali contro i lavoratori della notte.",
+      "fonti": [
+        {
+          "titolo": "Castigliego (Pd) sull'ordinanza Cenerentola sospesa: \"Avevamo ragione noi, la città non può restare spenta\"",
+          "url": "https://www.ilpescara.it/politica/castigliego-giovani-pd-ordinanza-cenerentola-sospesa-tar.html"
+        },
+        {
+          "titolo": "I giovani Democratici bacchettano il sindaco di Pescara Masci sulla ordinanza \"cenerentola\" sospesa dal Tar",
+          "url": "https://www.abruzzopopolare.com/2026/04/13/i-giovani-democratici-bacchettano-il-sindaco-di-pescara-masci-sulla-ordinanza-cenerentola-sospesa-dal-tar/"
+        }
+      ],
+      "focus": "59.7% 38%"
+    },
+    {
+      "titolo": "Un'opera pubblica incompleta e pericolosa non si consegna ai cittadini",
+      "categoria": "Sicurezza e mobilità pubblica",
+      "immagine": "/images/generic/congresso-spiaggia.jpg",
+      "sintesi": "Dopo tre incidenti in due giorni sul nuovo tracciato del filobus TUA a Pescara, Emanuele ha denunciato marciapiedi fuori norma, barriere architettoniche mai rimosse e incroci a raso con semafori malfunzionanti.",
+      "dettaglio": "\"Un'opera pubblica incompleta, mal progettata e pericolosa è stata restituita ai cittadini\", ha dichiarato, definendo \"inaccettabile questa ostinazione irresponsabile, prima che si verifichino conseguenze più gravi\". La necessità di presidiare gli incroci con la polizia locale, secondo Castigliego, certificava da sola l'insicurezza strutturale di un'opera inaugurata in fretta e senza collaudo.",
+      "fonti": [
+        {
+          "titolo": "Giovani Democratici Pescara: \"Il tracciato TUA va rivisto, tre incidenti in due giorni segnalano un problema\"",
+          "url": "https://www.iltrafiletto.it/2025/04/30/giovani-democratici-pescara-il-tracciato-tua-va-rivisto-tre-incidenti-in-due-giorni-segnalano-un-problema/9-11764.html"
+        }
+      ],
+      "focus": "74.8% 24.6%"
+    },
+    {
+      "titolo": "Basta parcheggi al posto del tram che non arriva mai",
+      "categoria": "Qualità della vita e mobilità sostenibile",
+      "immagine": "/images/incarichi/incontro-circolo.jpg",
+      "sintesi": "Insieme alla segreteria provinciale, Emanuele ha criticato la scelta della giunta Masci di trasformare Strada Parco in parcheggio nel periodo natalizio, mentre Pescara scivolava di 14 posizioni nella classifica sulla qualità della vita del Sole 24 Ore.",
+      "dettaglio": "\"Una scelta insensata e ipocrita\" che, secondo Castigliego, certifica il fallimento del progetto del tram, promesso entro l'anno e mai partito per problemi irrisolti. La richiesta dei Giovani Democratici: soluzioni strutturali e di lungo periodo, non misure emergenziali, guardando alle città europee che investono su pedonalizzazione e mobilità sostenibile.",
+      "fonti": [
+        {
+          "titolo": "Pescara, GD: \"Parcheggio su Strada Parco scelta emergenziale, servono soluzioni strutturali\"",
+          "url": "https://abruzzoweb.it/pescara-gd-parcheggio-su-strada-parco-scelta-emergenziale-servono-soluzioni-strutturali/"
+        },
+        {
+          "titolo": "I giovani democratici sui parcheggi lungo la strada parco: \"Scelta fallimentare ed emergenziale\"",
+          "url": "https://www.ilpescara.it/politica/parcheggi-strada-parco-giovani-democratici.html"
+        }
+      ],
+      "focus": "51.7% 25%"
+    },
+    {
+      "titolo": "Il lavoro è una questione generazionale",
+      "categoria": "Lavoro, economia e politiche industriali",
+      "immagine": "/images/generic/reggio-emilia-evento.jpg",
+      "sintesi": "Come responsabile lavoro, economia e politiche industriali dei GD Abruzzo, Emanuele ha portato ai tavoli con parti sociali e sindacati under 35 la battaglia su precarietà, salari bassi e crisi industriale, rifiutando le celebrazioni di facciata.",
+      "dettaglio": "\"Il lavoro non può essere affrontato soltanto in chiave celebrativa\", ha dichiarato, sottolineando che \"la questione del lavoro è prima di tutto una questione generazionale: precarietà, salari bassi, inflazione, fuga dei giovani e crisi industriale stanno compromettendo il futuro di intere generazioni\". Sul tavolo le proposte dei GD: salario minimo regionale, sgravi fiscali per gli under 35, riforma degli stage contro gli abusi e una nuova politica industriale regionale, di fronte a una disoccupazione giovanile oltre il 18% e una cassa integrazione straordinaria cresciuta di oltre il 250%.",
+      "fonti": [
+        {
+          "titolo": "Lavoro, l'allarme dei Giovani Democratici: precarietà, salari bassi e crisi industriale",
+          "url": "https://www.abruzzospeciale.it/2026/05/12/lavoro-lallarme-dei-giovani-democratici-precarieta-salari-bassi-e-crisi-industriale-la-questione-generazionale-e-lemergenza-del-paese/"
+        },
+        {
+          "titolo": "I Giovani Democratici incontrano le parti sociali under 35",
+          "url": "https://www.ilpescara.it/attualita/giovani-democratici-incontrano-parti-sociali-under-35.html"
+        }
+      ],
+      "focus": "51.8% 29.9%"
+    },
+    {
+      "titolo": "Carceri sovraffollate: non luoghi della non vita",
+      "categoria": "Diritti e giustizia sociale",
+      "immagine": "/images/incarichi/evento-pd.jpg",
+      "sintesi": "Come responsabile organizzazione dei GD Abruzzo, Emanuele ha firmato insieme ad altri dirigenti regionali la denuncia sul sovraffollamento delle carceri abruzzesi, arrivate a quasi 2000 detenuti, e sulla carenza di organico e assistenza sanitaria.",
+      "dettaglio": "Il comunicato firmato dai Giovani Democratici Abruzzo denuncia \"istituti sovraffollati, aumento costante dei detenuti, organici insufficienti\", con la popolazione carceraria abruzzese salita a 1.981 unità. La richiesta è di interventi strutturali immediati: nuove assunzioni, investimenti sugli istituti e potenziamento dei servizi di salute mentale, invece di risposte emergenziali di fronte a una situazione ormai cronica.",
+      "fonti": [
+        {
+          "titolo": "GD su carceri: \"Abruzzo situazione critica, servono urgenti interventi\"",
+          "url": "https://news-town.it/2026/02/24/redazione-aperta/gd-su-carceri-abruzzo-situazione-critica-servono-urgenti-interventi/"
+        },
+        {
+          "titolo": "Sempre più sovraffollate le carceri abruzzesi, i Giovani democratici: \"Non luoghi della non vita\"",
+          "url": "https://www.ilpescara.it/politica/carceri-numero-detenuti-sovraffollamento-giovani-democratici.html"
+        }
+      ],
+      "focus": "46.8% 21.5%"
+    }
+  ]
+}

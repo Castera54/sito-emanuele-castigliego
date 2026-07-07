@@ -78,7 +78,8 @@ document.addEventListener("DOMContentLoaded", async () => {
   const params = new URLSearchParams(window.location.search);
   const slug = params.get("slug");
   try {
-    const posts = await caricaJSON("/data/posts.json");
+    const datiPosts = await caricaJSON("/data/posts.json");
+    const posts = datiPosts.posts || [];
     const post = posts.find((p) => p.slug === slug);
     if (!post) {
       container.innerHTML = `

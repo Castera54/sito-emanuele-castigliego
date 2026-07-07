@@ -1,20 +1,22 @@
-[
-  {
-    "slug": "perche-nuova-pescara",
-    "titolo": "Perché \"Nuova Pescara\" non è solo un nome",
-    "data": "2026-06-22",
-    "estratto": "Un anno fa venivo eletto segretario di un circolo che sceglieva di chiamarsi Nuova Pescara. Un anno dopo, provo a fare un primo bilancio.",
-    "immagine": "/images/generic/congresso-spiaggia.jpg",
-    "corpo": "Un anno fa, su una spiaggia libera di Pescara, il congresso dei Giovani Democratici sceglieva di dare al nostro circolo metropolitano un nome preciso: **Nuova Pescara**.\n\nNon era una scelta scontata. Avremmo potuto continuare a chiamarlo semplicemente \"circolo di Pescara\". Abbiamo scelto invece di guardare oltre i confini amministrativi attuali, verso l'area metropolitana che unisce Pescara, Montesilvano e Spoltore: tre comunità che vivono già come una città sola, nei trasporti, nel lavoro, nel tempo libero, ma che troppo spesso vengono pensate e amministrate come se fossero mondi separati.\n\nLa mia idea, che ho provato a raccontare fin dal primo giorno, è semplice: Montesilvano e Spoltore non devono essere periferie di Pescara, ma nodi vitali di un'unica rete urbana. Una città policentrica, moderna, capace di essere un modello per l'Adriatico e per il Mezzogiorno.\n\nUn anno dopo, la strada è ancora lunga. Ma continuo a crederci: trasformare la delusione in progetto, la rabbia in proposta, il sogno in città.",
-    "focus": "74.8% 24.6%"
-  },
-  {
-    "slug": "benvenuti-nel-mio-blog",
-    "titolo": "Benvenuti nel mio blog",
-    "data": "2026-07-01",
-    "estratto": "Perché ho deciso di aprire questo spazio, e cosa troverete da qui in avanti: pensieri, appunti di viaggio politico, e qualche riflessione più personale.",
-    "immagine": "/images/generic/intervento-microfono.jpg",
-    "corpo": "Ho deciso di aprire questo piccolo spazio per un motivo semplice: i comunicati stampa raccontano le battaglie, ma non sempre raccontano il percorso, i dubbi, le cose che si imparano lungo la strada.\n\nQui proverò a scrivere con un tono più personale. Racconterò cosa vedo girando per i circoli, cosa imparo confrontandomi con chi non la pensa come me, e perché credo ancora che la politica giovanile possa cambiare le cose, un passo alla volta.\n\nGrazie per essere qui. Continuate a seguirmi anche sui social, ma se cercate qualcosa di più riflessivo, questo è il posto giusto.",
-    "focus": "59.7% 38%"
-  }
-]
+{
+  "posts": [
+    {
+      "slug": "perche-nuova-pescara",
+      "titolo": "Perché \"Nuova Pescara\" non è solo un nome",
+      "data": "2026-06-22",
+      "estratto": "Un anno fa venivo eletto segretario di un circolo che sceglieva di chiamarsi Nuova Pescara. Un anno dopo, provo a fare un primo bilancio.",
+      "immagine": "/images/generic/congresso-spiaggia.jpg",
+      "corpo": "Un anno fa, su una spiaggia libera di Pescara, il congresso dei Giovani Democratici sceglieva di dare al nostro circolo metropolitano un nome preciso: **Nuova Pescara**.\n\nNon era una scelta scontata. Avremmo potuto continuare a chiamarlo semplicemente \"circolo di Pescara\". Abbiamo scelto invece di guardare oltre i confini amministrativi attuali, verso l'area metropolitana che unisce Pescara, Montesilvano e Spoltore: tre comunità che vivono già come una città sola, nei trasporti, nel lavoro, nel tempo libero, ma che troppo spesso vengono pensate e amministrate come se fossero mondi separati.\n\nLa mia idea, che ho provato a raccontare fin dal primo giorno, è semplice: Montesilvano e Spoltore non devono essere periferie di Pescara, ma nodi vitali di un'unica rete urbana. Una città policentrica, moderna, capace di essere un modello per l'Adriatico e per il Mezzogiorno.\n\nUn anno dopo, la strada è ancora lunga. Ma continuo a crederci: trasformare la delusione in progetto, la rabbia in proposta, il sogno in città.",
+      "focus": "74.8% 24.6%"
+    },
+    {
+      "slug": "benvenuti-nel-mio-blog",
+      "titolo": "Benvenuti nel mio blog",
+      "data": "2026-07-01",
+      "estratto": "Perché ho deciso di aprire questo spazio, e cosa troverete da qui in avanti: pensieri, appunti di viaggio politico, e qualche riflessione più personale.",
+      "immagine": "/images/generic/intervento-microfono.jpg",
+      "corpo": "Ho deciso di aprire questo piccolo spazio per un motivo semplice: i comunicati stampa raccontano le battaglie, ma non sempre raccontano il percorso, i dubbi, le cose che si imparano lungo la strada.\n\nQui proverò a scrivere con un tono più personale. Racconterò cosa vedo girando per i circoli, cosa imparo confrontandomi con chi non la pensa come me, e perché credo ancora che la politica giovanile possa cambiare le cose, un passo alla volta.\n\nGrazie per essere qui. Continuate a seguirmi anche sui social, ma se cercate qualcosa di più riflessivo, questo è il posto giusto.",
+      "focus": "59.7% 38%"
+    }
+  ]
+}
